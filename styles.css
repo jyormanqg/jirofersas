@@ -1,0 +1,49 @@
+#hero {
+    background-image: url('img/banner.png'); 
+    background-size: cover; 
+    background-position: center;
+    height: 50vh;
+    position: relative;
+}
+
+#hero-2 {
+    background-image: url('img/banner2.png'); 
+    background-size: cover; 
+    background-position: center;
+    position: relative;
+    height: 50vh;
+}
+
+.overlay-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.70); /* Color negro con opacidad del 50% */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.70); /* Color negro con opacidad del 50% */
+}
+
+
+@media (min-width: 768px) {
+    /* Para dispositivos con un ancho mínimo de 768px (pantallas medianas y grandes) */
+    #hero {
+        height: 50vh; /* Altura ajustada para pantallas medianas y grandes */
+    }
+}
+
+@media (min-width: 992px) {
+    /* Para dispositivos con un ancho mínimo de 992px (pantallas grandes) */
+    #hero {
+        height: 70vh; /* Altura ajustada para pantallas grandes */
+    }
+}
+
